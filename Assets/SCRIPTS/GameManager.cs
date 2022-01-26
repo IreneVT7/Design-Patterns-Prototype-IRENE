@@ -72,6 +72,8 @@ public class GameManager : MonoBehaviour
         if (currenttimeLimit <= 0)
         {
             resultsCanvas.SetActive(true);
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 
